@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget  xmlns="http://www.jil.org/ns/widgets"
+         xmlns:its="http://www.w3.org/2005/11/its"
+         id="316978e6-a8b6-4e96-b1d7-9ff50246f895"
+         version="01.00.beta"
+         height="700"
+         width="480">
+    <maximum_display_mode height="700" width="480"/>
+    <update href="http://www.jil.org/widgets/" period="2"/>
+    <access network="true" localfs="true" remote_scripts="false"/>
+    <billing required="false"/>
+    <icon src="Icon.png"/>
+    <content src="dress_index_css.html"/>
+    <feature name="http://jil.org/jil/api/1.1/xmlHttpRequest"/>
+    <feature name="http://jil.org/jil/api/1.1/deviceInfo"/> 
+    <feature name="http://jil.org/jil/api/1.1/device"/> 
+    <feature name="http://jil.org/jil/api/1.1/accelerometerInfo"/>
+    <feature name="http://jil.org/jil/api/1.1/accountInfo"/> 
+    <name>穿衣指数</name>
+    <description>ChinaDaily E-Newspaper.</description>
+    <license  href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache v2</license>
+    <author  email="blessdyb@mobroad.com">jjdoo</author>
+</widget>

@@ -1,0 +1,664 @@
+#main{
+position: absolute; 	
+	top: 68px;
+	left: 0px;
+	width: 480px;
+	height: 642px;	
+	font-size:25px;
+	background-color:white;
+}
+#dormitory_Floor{
+	position:absolute;
+	left:45px;
+	top:56px;
+	font-size:15px;
+	width:120px;
+	height:40px;
+	line-height:30px;
+	border:0px;color:#909993;} 
+#dorm_num{
+	position:absolute;
+	left:277px;
+	top:60px;
+	font-size:30px;
+	width:64px;
+	height:30px;
+	line-height:30px;
+	border:0px;color:#909993;}
+#set_height{
+
+	position:absolute;
+	left:166px;
+	top:63px;
+	font-size:30px;
+	width:64px;
+	height:30px;
+	line-height:30px;
+	border:0px;color:#909993;
+}
+#set_weight{
+	position:absolute;
+	left:166px;
+	top:119px;
+	font-size:30px;
+	width:64px;
+	height:30px;
+	line-height:30px;
+	border:0px;color:#909993;
+}
+#set_age{
+	position:absolute;
+	left:166px;
+	top:173px;
+	font-size:30px;
+	width:64px;
+	height:32px;
+	line-height:30px;
+	border:0px;
+	color:#909993;
+}
+
+#daohang{
+   position: absolute;
+   background-image: url("img/SideBar.png") ; 
+	
+	top: 0px;
+	left: 0px;
+	width: 480px;
+	height: 68px;
+	z-index:1;
+	display:none;
+}
+#daohang1{
+   position: absolute;
+	background-image: url("img/myfocus.png") ; 
+	background-position:center center;
+	background-repeat:no-repeat;
+	top: 0px;
+	left: 0px;
+	width: 120px;
+	height: 68px;
+}
+#daohang2{
+   position: absolute;
+	background-image: url("img/All_loc.png") ; 
+	background-position:center center;
+	background-repeat:no-repeat;
+	top: 0px;
+	left: 120px;
+	width: 120px;
+	height: 68px;
+}
+#daohang3{
+   position: absolute;
+	background-image: url("img/health.png") ; 
+	background-position:center center;
+	background-repeat:no-repeat;
+	top: 0px;
+	left: 240px;
+	width: 120px;
+	height: 68px;
+}
+#daohang4{
+   position: absolute;
+	background-image: url("img/Set.png") ; 
+	background-position:center center;
+	background-repeat:no-repeat;
+	top: 0px;
+	left: 360px;
+	width: 120px;
+	height: 68px;
+}
+#First_login {
+	position: absolute;
+	background-image: url("image/1.png") ; 
+	top: 0px;
+	left: 0px;
+	width: 480px;
+	height: 700px;
+}
+
+#dorm_focus_set{
+   position: absolute;	
+	top: 107px;
+	left: 9px;
+	width:465px;
+	height: 116px;	
+}
+#dorm_focus_set_Copy{
+   position: absolute;	
+	top: 107px;
+	left: 9px;
+	width:465px;
+	height: 116px;
+	background-image: url("img/Floor_bg.png") ;
+}
+#Person_Info_set{
+   position: absolute;	
+	top: 271px;
+	left: 9px;
+	width:465px;
+	height: 239px;
+	
+}
+#Person_Info_set_Copy{
+   position: absolute;	
+	top: 271px;
+	left: 9px;
+	width:465px;
+	height: 239px;
+	background-image: url("img/Info_bg1.png");
+}
+#Reset{
+   position: absolute;	
+	top: 566px;
+	left: 40px;
+	height: 60px;
+	width:133px;
+	
+	background-image: url("img/btn_Reset.png");
+}
+#set_OK{
+   position: absolute;	
+	top: 566px;
+	left: 290px;
+	height: 60px;
+	width:133px;
+	
+	background-image: url("img/btn_OK.png");
+}
+
+
+
+
+
+#Location_List{
+   position: absolute;	
+	top: 0px;
+	left: 0px;
+	height: 700px;
+	width:480px;
+	background-image: url("img/bg.png");	
+	display:none;
+}
+#Room_list{
+   position: absolute;	
+	top: 277px;
+	left: 0px;
+	 width:480px;
+  height: 380px;
+  background-image: url("img/Room_choice_bg.png");
+}
+#Room_list1{
+   position: absolute;	
+	top: 46px;
+	left: 17px;
+	 width:140px;
+   height: 55px;
+  background-image: url("img/btn_Room.png");
+  text-align : center;
+	vertical-align : middle;
+	
+}
+#Room_add1{
+   position: absolute;	
+	top: 46px;
+	left: 155px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list2{
+   position: absolute;	
+	top: 46px;
+	left: 230px;
+	 width:140px;
+  height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_add2{
+   position: absolute;	
+	top: 46px;
+	left:370px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list3{
+   position: absolute;	
+	top: 157px;
+	left: 17px;
+	  width:140px;
+   height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_add3{
+   position: absolute;	
+	top: 157px;
+	left: 155px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list4{
+   position: absolute;	
+	top: 157px;
+	left: 230px;
+	 width:140px;
+   height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_add4{
+   position: absolute;	
+	top: 157px;
+	left: 370px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list5{
+   position: absolute;	
+	top: 267px;
+	left: 17px;
+	 width:140px;
+   height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_add5{
+   position: absolute;	
+	top: 267px;
+	left: 155px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list6{
+   position: absolute;	
+	top: 267px;
+	left: 230px;
+	 width:140px;
+  height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_add6{
+   position: absolute;	
+	top: 267px;
+	left: 370px;
+	height: 65px;
+	width:65px;
+	background-image: url("img/btn_Focus.png");	
+	
+}
+#Room_list7_C{
+   position: absolute;	
+	top: 20px;
+	left: 30px;
+	 width:130px;
+  height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+#Room_list8_C{
+   position: absolute;	
+	top: 20px;
+	left: 30px;
+	 width:130px;
+  height: 65px;
+  background-image: url("img/btn_Room.png");
+}
+.Room_btn{
+  width:130px;
+  height: 130px;
+  background-image: url("img/btn_Room.png");
+}
+.Room_add{
+  width:40px;
+  height: 57px;
+  background-image: url("img/ btn_Focus.png");
+}
+#Focus_List{
+	position: absolute;
+	background-image: url("img/bg.png") ; 
+	top: 0px;
+	left: 0px;
+	width: 480px;
+	height: 700px;	
+	display:none;
+}
+#Floor_list{
+   position: absolute;
+	background-image: url("img/Floor_bg.png") ; 
+	top: 74px;
+	left: 8px;
+	width: 464px;
+	height: 190px;
+	font-size：30px;
+	font-weight : bold;
+}
+#Room_detail{
+   position: absolute;
+	background-image: url("img/All_loc_Detail.png") ; 
+	top: 74px;
+	left: 8px;
+	width: 464px;
+	height: 190px;
+	font-size：30px;	
+	display:none;
+}
+
+.unitshow {
+	position: relative;
+	top:20px;
+	left:30px;
+	float:left;
+  	width: 80px;  	
+  	height: 30px;
+  	margin: 10px 13px 0px 3px;  	
+	background-color : transparent;
+	border-color : #FFFFFF;
+	border-style : solid;
+	font-size : 25px;
+	color : #0d7d8e;
+	font-weight : bold;
+	border-width : 0px;
+	text-align : center;
+	padding-top:12px;/*(24-12)/2;height减font-size然后除以2*/
+    text-align : center;	
+	text-decoration : underline;
+}
+.roomshow { 	
+font-size: 25px; 
+font-weight: bold;
+text-align : center;
+text-indent: 10px;
+color:#4e6367;
+padding-top:17px;/*(24-12)/2;height减font-size然后除以2*/
+
+}
+.Focus_roomIn {	
+	position: relative;
+	top:0px;
+	left:0px;
+	float:left;
+  	width: 380px;
+  	height: 62px;
+  	margin: 0px 0px 0px 0px;
+  	color : #000888;
+	background-color : transparent;
+	border-color : #FFFFFF;
+	border-style : solid;
+	font-size : 25px;
+	font-weight : bold;
+	border-width : 0px;
+	text-align : center;
+	vertical-align : middle;
+	
+	background-image: url("img/Focus_line.png") ;
+	background-repeat:no-repeat; 
+	
+	
+	
+}
+.Focus_roomdetailIn {	
+	position: relative;
+	top:6px;
+	left:3px;
+	float:left;
+  	width: 375px;
+  	height: 223px;
+  	margin: 0px 0px 0px 0px;
+  	color : #000888;
+	background-color : transparent;
+	border-color : #FFFFFF;
+	border-style : solid;
+	font-size : 20px;
+	font-weight : bold;
+	border-width : 0px;	
+	vertical-align : middle;
+	z-index:1;
+	background-image: url("img/Focus_expand_bg.png") ;
+	background-repeat:no-repeat; 
+	display:none;
+	padding-top:0px;/*(24-12)/2;height减font-size然后除以2*/
+}
+#back_list{
+position: absolute;
+background-image: url("img/All_loc_detail_close.png") ; 
+top: 15px;
+right: 15px;
+width: 30px;
+height: 30px;
+z-index:1;
+}
+#Focus_dorm{
+position: absolute;
+	background-image: url("img/Info_bg2.png") ; 
+	background-repeat:no-repeat;
+	top: 80px;
+	left: 5px;
+	width: 470px;
+	height:180px;
+	font-size:20px;
+	color : #333e40;
+	
+}
+#Focus_room{
+    position: absolute;	 
+    
+    background-image: url("img/Focus_bg.png") ; 
+	background-repeat:no-repeat;
+	top: 270px;
+	left: 47px;
+	width: 420px;
+	height:450px;
+	color : #333e40;
+	
+}
+.del_focus{
+	position: absolute;
+	bottom:0px;
+	right:0px;
+  	width: 40px;
+  	height: 40px;
+  	margin: 0px 0px 0px 0px;  	
+	border-width : 0px;
+	z-index:2;
+  
+    background-image: url("img/Focus_Del.png") ; 
+    background-position:center center;
+    background-repeat:no-repeat;
+ } 
+ .colse_focus{
+	position: absolute;
+	top:0px;
+	right:0px;
+  	width: 40px;
+  	height: 62px;
+  	margin: 0px 0px 0px 0px;  	
+	border-width : 0px;
+	z-index:2;
+  
+    background-image: url("img/Focus_Colse.png") ; 
+    background-position:center center;
+    background-repeat:no-repeat;
+ } 
+#All_left{
+    position: absolute;
+	background-image: url("img/Left.png") ; 
+	background-repeat:no-repeat;
+	top: 23px;
+	right: 15px;
+	width: 25px;
+	height:143px;
+	z-index:1;
+}
+#All_right{
+position: absolute;
+	background-image: url("img/Right.png") ; 
+	background-repeat:no-repeat;
+	top: 181px;
+	right: 15px;
+	width: 25px;
+	height:143px;
+}
+#Focus_left{
+    position: absolute;
+	background-image: url("img/FLeft.png") ; 
+	background-repeat:no-repeat;
+	top: 360px;
+	left: 5px;
+	width: 30px;
+	height:210px;
+	z-index:1;
+}
+#Focus_right{
+position: absolute;
+	background-image: url("img/FRight.png") ; 
+	background-repeat:no-repeat;
+	top: 360px;
+	left: 445px;
+	width: 30px;
+	height:210px;
+}
+#Focus_room_detail{
+	position: absolute;	
+	top:210px;
+	left:20px;
+	weight:430px;     
+     height:160px;	
+    background-image: url("img/Focus_expand_bg.png") ; 
+	background-repeat:no-repeat; 
+  	color : #333e40;
+	font-size : 30pt;
+	font-weight : bold;	
+	text-align : center;
+	vertical-align : middle;      
+     }
+ #back_foucus{
+    position: absolute;	
+	top:0px;
+	right:0px;
+	weight:20px;     
+    height:20px;
+    background-image: url("img/All_loc_detail_close.png") ; 
+ } 
+ #Health_info   {
+	position: absolute;
+	border-color : #FFFFFF;
+	top: 0px;
+	left: 0px;
+	width: 480px;
+	height: 700px;
+	display:none;
+}
+#choice_Floor{
+    position: absolute;
+	background-image: url("img/Floor_choice_bg.png") ; 
+	background-repeat:no-repeat; 
+	bottom: 0px;
+	left: 0px;
+	width: 480px;
+	height: 50px;
+
+}
+.items {	
+	position: relative;
+	top:0px;
+	left:0px;
+	float:left;
+  	width: 480px;
+  	height: 44px;
+  	margin: 0px 0px 0px 0px;
+  	background-color : transparent;
+	border-color : #FFFFFF;
+	border-style : solid;
+	font-size : 25px;	
+	border-width : 0px;
+	padding-top:18px;	
+	vertical-align : middle;	
+	background-repeat:no-repeat; 	
+}
+#goleft{
+position: absolute;
+	background-image: url("img/Floor_choice_L.png") ; 
+	background-repeat:no-repeat; 
+	top: 12px;
+	left: 0px;
+	width: 20px;
+	height: 38px;
+	z-index:2;
+}
+#goright{
+position: absolute;
+	background-image: url("img/Floor_choice_R.png") ; 
+	background-repeat:no-repeat; 
+	top: 12px;
+	right: 0px;
+	width: 20px;
+	height: 38px;
+	z-index:2;
+}
+.sign{
+    position: absolute;
+	background-image: url("img/floor_D.png") ; 
+	background-repeat:no-repeat; 
+	top: 0px;
+	left: 190px;
+	width: 50px;
+	height: 15px;
+	z-index:2;
+}
+.Floor_num{
+    
+	float:left;
+  	width: 70px;
+  	height: 30px;  	
+	font-size : 25px;	
+	border-width : 0px;
+	text-align : center;
+	color : #FFFCF4;
+	text-decoration : underline;	
+}
+#num_0{
+position: absolute;
+	 bottom:10px;
+	 left:40px;
+}
+#num_1{
+position: absolute;
+	 bottom:10px;
+	 left:110px;
+}
+#num_2{
+position: absolute;
+	 bottom:10px;
+	 left:180px;
+}
+#num_3{
+position: absolute;
+	 bottom:10px;
+	 left:250px;
+}
+#num_4{
+position: absolute;
+	 bottom:10px;
+	 left:320px;
+}
+#num_5{
+position: absolute;
+	 bottom:10px;
+	 left:390px;
+}
+.tempblue{
+  color : #0d7d8e;
+}
+#Room_detail_c{
+
+  font-size : 20px;
+  color : #333e40;
+  margin:0px,0px,10px,10px;
+}
